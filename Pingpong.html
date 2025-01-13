@@ -1,0 +1,279 @@
+
+<!doctype html><html><head> 
+  <meta property="og:image" content="https://i.postimg.cc/tCMHgZ07/20210703-130046.jpghttps://telegra.ph/file/12a3063bc390ba67f7f50.jpg"> 
+  <link rel="shortcut icon" href="https://i.postimg.cc/tCMHgZ07/20210703-130046.jpghttps://telegra.ph/file/12a3063bc390ba67f7f50.jpg"> 
+  <meta charset="UTF-8"> 
+  <meta name="viewport" content="width=device-width,initial-scale=1,user-scallable=no"> 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="abyanganteng"> 
+  
+   <link href="https://h.top4top.io/p_3300fdja10.png" rel="shortcut icon" type="image/x-icon" />
+<meta property="og:title" content="｡  PINGPONG" />
+<meta property="og:description" content="PINGPOMG" />
+<meta property="og:image" content="https://h.top4top.io/p_3300fdja10.png">
+<head>
+  <link href="https://fonts.googleapis.com/css?family=Press+Start+2P|Sarabun" rel="stylesheet"> 
+ <style type="text/css" id="dcoder_stylesheet">
+ /* -----------------------------------------------
+/* Author : NARA  - 
+BELAJAR CODING YUK HUBUNGI 6285711374861
+/* ----------------------------------------------- */
+body 
+{
+    margin:0; padding:5px;
+    background-image: url(https://j.top4top.io/p_3298ux21x1.jpg);
+    user-select:none;    
+    font-family: 'Sarabun', sans-serif;
+    
+    }
+body:after
+{     display:none; 
+      content: url(https://dl-web.dropbox.com/s/9smc0vzt2oe6jfl/badmainton%20animations%20music%202.mp3?dl=0);
+}
+i
+{    color:red; 
+    margin:0px 2px 0px 2px;   
+}
+.tab, #status
+{
+    position:absolute ;
+    top:0; left:0; right:0; bottom:0;
+    margin:auto;
+    background-color:white;
+    border-radius:10px;
+    z-index:1; 
+    width:330px;  height:370px;
+    padding:10px;
+    box-sizing:border-box ;
+    transition-duration:150ms;
+}
+img
+{
+    display:inline-block ;
+    position:relative ;
+    height:80px; width:80px;
+    border-radius:10px;
+    top:20px;
+}
+h3
+{   
+    display:inline-block ;
+    color:dimgray;
+    font-family: 'Press Start 2P', cursive;
+    font-size:20px; margin:2px;
+}
+#info
+{
+    display:block ;
+    position:relative;
+    font-family: 'Sarabun', sans-serif;  margin:15px; margin-top:25px;
+}
+#easy, #hard , #impossible
+{
+    display:block ;
+    position:relative ;
+    padding:12px;
+    font-family: 'Press Start 2P', cursive;
+    background-color:#efefef;
+    border:3px dashed #262626;
+    font-size:15px;
+    text-align:center;
+    margin:10px; 
+}
+#status
+{
+    font-family: 'Press Start 2P', cursive;
+    height:200px;
+    visibility:hidden;
+    transition-duration:100ms;
+}
+#result
+{
+    font-size:30px;
+    margin:20px 10px 10px 10px;
+}
+button
+{
+    padding:20px;
+    position:relative;
+    outline:none;
+    border:3px dashed #262626;
+    border-radius:10px;
+    background-color:green;
+    color:white;
+    font-family: 'Press Start 2P', cursive;
+    font-size:18px;
+    margin:8px; margin-top:25px;
+    box-shadow:0 1px 3px rgba(0,0,0,0.12), 0 3px 5px rgba(0,0,0,0.3);
+}
+button:active {
+    transform:scale(0.85);
+    box-shadow:0px 0px 0px gray;
+}
+#canvas
+{
+    position:absolute ;    
+    margin:auto;
+    top:0;  left:0;
+    bottom:0; right:0;
+    background:url(https://h.top4top.io/p_3300fdja10.png);
+    border:4px solid white;
+    box-sizing:border-box;
+    z-index:1;
+    
+}
+ #container
+{   display:block;
+    position:fixed;
+    height:100vh; width:100vw;
+    background-color:#262626;
+    z-index:5;
+}
+#load
+{
+    font-size:18px;
+    color:white;
+    margin:auto; text-align:center;
+    font-family: 'Aleo', serif;   
+    user-select:none;
+    z-index:10;
+}
+#loader
+{
+    display:block ;
+    position:relative ;
+    height:110px; width:110px;
+    border-radius:50%;
+    margin:auto; 
+    margin-top:40%;
+    background-image:-webkit-linear-gradient(left,#14ffe9,#ffeb3b,#ff00e0);
+    animation:animate 0.5s linear infinite;
+    border:7px solid white;
+    user-select:none;
+}
+#loader:after
+{
+    content:'';
+    position:absolute;
+    margin:15px;
+    height:80px; width:80px;
+    border-radius:50%;
+    background-color:#262626;
+    opacity:0.9;
+}
+#loader > span
+{
+    display:block ;
+    position:absolute ;
+    height:100%; width:100%;
+    border-radius:50%;
+    margin:auto; 
+    background-image:-webkit-linear-gradient(left,#14ffe9,#ffeb3b,#ff00e0);
+}
+#loader > span:nth-child(1)
+{
+    filter:blur(5px);
+}
+#loader > span:nth-child(2)
+{
+    filter:blur(10px);
+}
+#loader > span:nth-child(3)
+{
+    filter:blur(25px);
+}
+#loader > span:nth-child(4)
+{
+    filter:blur(45px);
+} 
+@keyframes animate
+{
+    100%
+    {
+        transform:rotate(360deg);
+    }
+}
+@keyframes pop
+{
+    0%
+    { transform:scale(0.8); }
+    34%
+    { transform:scale(1); }
+    66%
+    { transform:scale(0.9); }
+    100%
+    { transform:scale(1); }
+    
+}
+
+</style></head> 
+ <body onload="document.getElementById('container').style.visibility='hidden',document.getElementsByClassName('tab')[0].style.animation='pop .27s ease'"> 
+  <canvas id="canvas"></canvas> 
+  <!-- Loader starts --> 
+  <div id="container"> 
+   <div id="loader"> 
+    <span></span> 
+    <span></span> 
+    <span></span> 
+    <span></span> 
+   </div> 
+   <br> 
+   <br> 
+   <br> 
+   <div id="load">
+     the creator of this game is miidun's
+   </div> 
+  </div> 
+  <!--    Loader ends --> 
+  <div class="tab"> 
+   <div id="logo"> 
+    <img src="https://telegra.ph/file/12a3063bc390ba67f7f50.jpg" alt="Logo"> 
+    <h3>ping pong</h3> 
+   </div> 
+   <div id="info"> 
+    <b</b> Gols 10 more balls to win
+  </div>   LEVEL
+   <div class="level"> 
+    <div id="easy" onclick="eas()">
+      EASY
+    </div> 
+    <div id="hard" onclick="har()">
+      MEDIUM
+    </div> 
+    <div id="impossible" onclick="imp()"> 
+     <i class="fas fa-skull"></i> HARD
+     <i class="fas fa-skull"></i> 
+    </div> 
+   </div> 
+  </div> 
+  <div id="status"> 
+   <center> 
+    <div id="result">
+     KAMU MENANG 
+    </div> 
+   </center> 
+   <center> 
+    <button onclick="again()">Mulai Ulang</button> 
+   </center> 
+  </div> 
+  <!-- To get clicking sound --> 
+  <audio id="music" autoplay loop> 
+   <source src="https://d.top4top.io/m_3148ut1w60.mp3" type="audio/mp3"> 
+  </audio> 
+  <audio id="win" autoplay> 
+   <source src="https://dl-web.dropbox.com/s/rp61o4fyqrr4rzx/victory%20%20sound.mp3?dl=0" type="audio/mp3"> 
+  </audio> 
+  <audio id="lose" autoplay> 
+   <source src="https://dl-web.dropbox.com/s/v92i14096c2syxg/Lose%20Game%20.mp3?dl=0" type="audio/mp3"> 
+  </audio> 
+  <center> 
+   <a href="/api"> <font size="2px" style="font-family: Iceland, sans-serif;color:white;text-shadow: 0 0 1px red, 0px 0px 3px red" 2px"><b>BADMINTON ANIMATIONS</b></font></a> 
+   <font size="2px" style="font-family: Iceland, sans-serif;color:white;text-shadow: 0 0 1px red, 0px 0px 3px red" 2px"> 
+    <marquee behavior="scroll" direction="left" scrollamount="2" scrolldelay="25" width="100%"> 
+     <b>I LOVE YOU</b> 
+    </marquee> </font> 
+  </center> 
+<script src="https://naraanimation.github.io/TiktokDownloader/pingpong.js" type="text/javascript" id="dcoder_script">
+</script></body></html>
+
+
+
