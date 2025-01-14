@@ -1,0 +1,43 @@
+
+    html, body {
+      margin: 0;
+      height: 100%;
+    }
+    iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 90%;
+      border: none; /* Sembunyikan border iframe */
+    }
+    body{
+    background-color: #4267b2;
+    }
+    .kotak-bawah {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      height: 150px;
+      font-size: 30px;
+      width: 100%;
+      background-color: #4267b2;
+      box-sizing: border-box;
+    }
+    
+
+    .blink {
+      animation: blink 5s infinite;
+    }
+
+    @keyframes blink {
+      0% {
+        opacity: 1;
+      }
+      50% {
+        opacity: 0;
+      }
+      100% {
+        opacity: 1;
+      }
+    }
